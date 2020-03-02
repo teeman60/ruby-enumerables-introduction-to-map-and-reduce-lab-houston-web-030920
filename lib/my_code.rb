@@ -6,3 +6,7 @@ end
 def map_to_no_change(source_array)
   source_array.map {|num| num}
 end
+
+def map_to_double(source_array)
+  source_array.map {|num| num * 2}
+end
