@@ -20,9 +20,9 @@ def reduce_to_total(source_array, starting_point)
 end
 
 def reduce_to_all_true(source_array)
-  source_array.all? {|ele|}
+  source_array.all? 
 end
 
 def reduce_to_any_true(source_array)
-  source_array.any? {|ele|}
+  source_array.any? 
 end
