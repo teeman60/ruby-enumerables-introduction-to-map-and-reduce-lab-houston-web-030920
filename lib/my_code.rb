@@ -20,7 +20,13 @@ def reduce_to_total(source_array)
 end
 
 def reduce_to_total(source_array, starting_point)
-  source_array.reduce(starting_point ? :+ : :-)
+  total = 0
+  source_array.each do |num|
+    if starting_point
+      total += num + starting_point
+    else total += num
+    end
+    total
 end
 
 
